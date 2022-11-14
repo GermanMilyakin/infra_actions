@@ -39,6 +39,7 @@ jobs:
         # запустить написанные разработчиком тесты
         python manage.py test
         
+        
     - name: Push to DockerHub
       uses: docker/build-push-action@v2
       with:

@@ -44,6 +44,6 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: True
-        tags: grmnm/infra:aaaa
+        tags: grmnm/infra:v.0.1
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_TOKEN }}
